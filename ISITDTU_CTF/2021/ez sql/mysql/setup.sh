@@ -1,0 +1,1 @@
+mysql -u root -p'414ba6bef9406cf1c6440e679e68c9ed9af742f9' main < /main.sql

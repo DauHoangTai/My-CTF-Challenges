@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  web:
+    build: .
+    volumes:
+     - ./logs/:/var/log
+     - ./src/:/var/www/html
+    ports:
+     - "5005:80"
